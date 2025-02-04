@@ -31,7 +31,6 @@
   flex-direction: column; /* Ensure content stacks vertically */
   width: 80%; /* Adjust width as needed */
   max-height: 90%; /* Ensure content doesn't overflow the curtain */
-  overflow: auto; /* Add scroll option to content */
 }
 
 .magic-curtain h1 {
