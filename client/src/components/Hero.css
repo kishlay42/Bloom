@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Nesans';
+    src: url('../assets/fonts/Nesans Semi Bold.woff') format('woff');
+    font-style: normal;
+}
+
+.hero-heading {
+    font-family: 'Nesans', sans-serif;
+    font-size: 70px;
+    color: #FEFDFE;
+    text-align: center;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.hero-paragraph{
+    font-family:  sans-serif;
+    font-size: 20px;
+    color: #BEBDBE;
+    text-align: center;
+    margin: 2% 0;
+    padding: 0;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2%;
+}
+
+.join-button {
+    background-color: #FEFDFE;
+    color: #232223;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 55px;
+    font-family: 'Catavalo Light', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.learn-button {
+    background: none;
+    color: #BEBDBE;
+    padding: 10px 20px;
+    border: 1px solid #BEBDBE;
+    border-radius: 55px;
+    font-family: 'Catavalo Light', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}

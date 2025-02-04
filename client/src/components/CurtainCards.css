@@ -1,0 +1,72 @@
+.cards-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  gap: 20px;
+  padding-left: 8%;
+  
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  border: 3px solid black; /* Add black border */
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Adjust height as needed */
+}
+
+.card-content {
+  flex: 0 0 60%; /* 60% height */
+  padding: 20px;
+}
+.card-content p{
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.titleImg{
+  width: 25px;
+  height: auto;
+  object-fit: fill;
+}
+.card-image {
+  flex: 0 0 40%; /* 40% height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.learn-more-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background:none;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  left: 5px;
+  bottom: 170px;
+}
+.learn-more-button img{
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+}
+

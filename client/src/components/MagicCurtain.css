@@ -1,0 +1,75 @@
+@keyframes appearFromCenter {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.magic-curtain {
+  position: relative;
+  padding-top: 10%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* z-index: 99;  */
+  animation: appearFromCenter 1s ease-out forwards;
+}
+
+.magic-curtain-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Ensure content stacks vertically */
+  width: 80%; /* Adjust width as needed */
+  max-height: 90%; /* Ensure content doesn't overflow the curtain */
+  overflow: auto; /* Add scroll option to content */
+}
+
+.magic-curtain h1 {
+  font-family: 'Nesans', sans-serif;
+  font-size: 4rem;
+  color: black;
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.magic-wand {
+  position: relative;
+  width: 420px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5); /* Shadow below the wand */
+  margin-top: 20px;
+  border: rgb(166, 161, 161) 0.2px solid;
+  padding: 18px;
+}
+
+.black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%; /* Adjust the width as needed */
+  height: 100%;
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,1) 11%, rgba(82,84,84,1) 51%, rgba(11,11,11,1) 86%);  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.white {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%; /* Adjust the width as needed */
+  height: 100%;
+  background: linear-gradient(to bottom,#ccc, white, #ccc); /* Gradient for white portion */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

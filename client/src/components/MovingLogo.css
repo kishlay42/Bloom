@@ -1,0 +1,15 @@
+.moving-logo {
+  position: fixed;
+  top: 7%;
+  left: 5%;
+  background: rgb(53,52,53);
+  background: radial-gradient(circle, rgba(53,52,53,1) 0%, rgba(34,33,36,1) 37%, rgba(11,11,11,1) 70%);  color: white;
+  border-radius: 10px;
+  padding: 15px 10px;
+  z-index: 100;
+  
+}
+.moving-logo img {
+    width: 55px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
